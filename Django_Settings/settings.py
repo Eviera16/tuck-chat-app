@@ -62,11 +62,11 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-        'tuck-chat-server.herokuapp.com',
+        'https://tuck-chat-server.herokuapp.com',
     ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'tuck-chat-server.herokuapp.com',
+    'https://tuck-chat-server.herokuapp.com',
     ]
 
 
