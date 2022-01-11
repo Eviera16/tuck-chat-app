@@ -61,13 +61,13 @@ REST_FRAMEWORK = {
     ]
 }
 
-CORS_ALLOWED_ORIGINS = [
-        'http://localhost:3000',
-    ]
+# CORS_ALLOWED_ORIGINS = [
+#         'http://localhost:3000',
+#     ]
 
-CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:3000',
-    ]
+# CSRF_TRUSTED_ORIGINS = [
+#     'http://localhost:3000',
+#     ]
 
 
 ROOT_URLCONF = 'Django_Settings.urls'
@@ -101,16 +101,16 @@ WSGI_APPLICATION = 'Django_Settings.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default' : {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'chat_app',
-        'USER': 'postgres',
-        'PASSWORD': '#E16Vev!',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+# DATABASES = {
+#     'default' : {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'chat_app',
+#         'USER': 'postgres',
+#         'PASSWORD': '#E16Vev!',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
