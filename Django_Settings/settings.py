@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'n*qlc$btem1jn9*-)n#q32)x&o^9k2n26_!zb!p*&(99&4j3f!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.1.32']
+ALLOWED_HOSTS = ['tuck-chat-server.herokuapp.com']
 
 
 # Application definition
