@@ -61,13 +61,13 @@ REST_FRAMEWORK = {
     ]
 }
 
-# CORS_ALLOWED_ORIGINS = [
-#         'http://localhost:3000',
-#     ]
+CORS_ALLOWED_ORIGINS = [
+        'tuck-chat-server.herokuapp.com',
+    ]
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'http://localhost:3000',
-#     ]
+CSRF_TRUSTED_ORIGINS = [
+    'tuck-chat-server.herokuapp.com',
+    ]
 
 
 ROOT_URLCONF = 'Django_Settings.urls'
