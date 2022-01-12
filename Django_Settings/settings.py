@@ -65,13 +65,13 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
         'https://tuck-chat-server.herokuapp.com',
         'http://localhost:3000',
-        'https://gentle-inlet-34713.herokuapp.com'
+        'https://tuckerman.herokuapp.com'
     ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://tuck-chat-server.herokuapp.com',
     'http://localhost:3000',
-    'https://gentle-inlet-34713.herokuapp.com'
+    'https://tuckerman.herokuapp.com'
     ]
 
 
@@ -99,23 +99,23 @@ WSGI_APPLICATION = 'Django_Settings.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
-#     'default' : {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'chat_app',
-#         'USER': 'postgres',
-#         'PASSWORD': '#E16Vev!',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    'default' : {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dn736ehlrrfam',
+        'USER': 'xjqygpcjhcicao',
+        'PASSWORD': '1efda1831f2f8a4618f333f0b4213b5e2b73ea8afef4ef23d3b30c2e503004ff',
+        'HOST': 'ec2-34-233-105-94.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
