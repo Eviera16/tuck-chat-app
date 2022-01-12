@@ -65,11 +65,13 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
         'https://tuck-chat-server.herokuapp.com',
         'http://localhost:3000',
+        'https://gentle-inlet-34713.herokuapp.com'
     ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://tuck-chat-server.herokuapp.com',
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://gentle-inlet-34713.herokuapp.com'
     ]
 
 

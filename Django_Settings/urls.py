@@ -16,6 +16,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('Django_Chat.urls')),
     path('api/', include('Django_Chat.api.urls')) 
 ]
