@@ -42,15 +42,15 @@ INSTALLED_APPS = [
     'Django_Chat',
     'rest_framework',
     'rest_framework.authtoken',
-    'corsheaders',
+    # 'corsheaders',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -62,15 +62,15 @@ REST_FRAMEWORK = {
     ]
 }
 
-CORS_ALLOWED_ORIGINS = [
-        'https://tuck-chat-server.herokuapp.com',
-        'http://localhost:3000',
-    ]
+# CORS_ALLOWED_ORIGINS = [
+#         'https://tuck-chat-server.herokuapp.com',
+#         'http://localhost:3000',
+#     ]
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://tuck-chat-server.herokuapp.com',
-    'http://localhost:3000'
-    ]
+# CSRF_TRUSTED_ORIGINS = [
+#     'https://tuck-chat-server.herokuapp.com',
+#     'http://localhost:3000'
+#     ]
 
 
 ROOT_URLCONF = 'Django_Settings.urls'
