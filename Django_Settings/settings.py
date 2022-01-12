@@ -27,7 +27,7 @@ SECRET_KEY = 'n*qlc$btem1jn9*-)n#q32)x&o^9k2n26_!zb!p*&(99&4j3f!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tuck-chat-server.herokuapp.com']
+ALLOWED_HOSTS = ['tuck-chat-server.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
