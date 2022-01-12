@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'Django_Chat',
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -59,6 +60,17 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ]
 }
+
+CORS_ALLOWED_ORIGINS = [
+        'https://tuck-chat-server.herokuapp.com',
+        'http://localhost:3000',
+    ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://tuck-chat-server.herokuapp.com',
+    'http://localhost:3000'
+    ]
+
 
 ROOT_URLCONF = 'Django_Settings.urls'
 
